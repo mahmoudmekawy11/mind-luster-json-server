@@ -1,0 +1,16 @@
+{
+  "name": "mindlister-db",
+  "version": "1.0.0",
+  "description": "A comprehensive task management database containing structured task data for development project management.",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch db.json "
+  },
+  "dependencies": {
+    "json-server": "^0.17.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
