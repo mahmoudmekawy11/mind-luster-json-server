@@ -4,7 +4,7 @@
   "description": "A comprehensive task management database containing structured task data for development project management.",
   "main": "index.js",
   "scripts": {
-    "start": "json-server --watch db.json "
+    "start": "json-server --watch db.json --host 0.0.0.0 --port $PORT"
   },
   "dependencies": {
     "json-server": "^0.17.0"
